@@ -18,3 +18,6 @@ for i in range(0,n):
         muji = np.dot(vi,uj)/(np.linalg.norm(uj) ** 2)
         ui = ui - np.dot(muji, uj)
     uls[i] = ui
+
+print(uls)
+
