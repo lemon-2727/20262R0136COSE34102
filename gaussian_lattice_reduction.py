@@ -17,3 +17,6 @@ def glr(v1,v2):
     return v1,v2
 
 u,v = glr(u,v)
+
+print(u,v)
+print(np.dot(u,v))
